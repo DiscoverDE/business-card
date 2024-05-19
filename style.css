@@ -101,7 +101,7 @@ h6 {
 
 img {
 	border: none;
-	max-width: 100%;
+	max-width: 85%;
 }
 
 code {
@@ -495,7 +495,7 @@ button:focus {
 .mu-feature-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding-top: 100px;
 	width: 100%;
 }
 
