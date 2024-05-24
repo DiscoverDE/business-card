@@ -282,15 +282,13 @@ button:focus {
 /*=== Featured section ===*/
 
 .mu-header-featured-area {
-	display: inline;
-	float: left;
-	padding: 50px 0;
+	display: flex;
+	padding-bottom: 50px;
 	width: 100%;
 }
 
 .mu-header-featured-img {
-	display: inline;
-	float: left;
+    justify-content: center;
 	width: 40%;
 }
 
@@ -1227,9 +1225,19 @@ button:focus {
 
 @media (max-width: 640px){
 
-	.mu-header-featured-img,
-	.mu-header-featured-content {
+	.mu-header-featured-area {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.mu-header-featured-content {		
 		width: 100%;
+	}	
+	.mu-header-featured-img {
+		width: 100%;
+		justify-content: center;
+		display:flex;
 	}
 
 	.mu-menu ul li a {
