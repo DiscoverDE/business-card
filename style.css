@@ -104,6 +104,11 @@ img {
 	max-width: 85%;
 }
 
+
+img.logoImage{
+	max-width: 17%;
+}
+
 code {
 	background-color: #ee6e73;
 	border-radius: 2px;
@@ -250,6 +255,8 @@ button:focus {
 .mu-logo:focus {
 	color: #fff;
 }
+
+
 
 .mu-menu-btn {
 	position: fixed;
